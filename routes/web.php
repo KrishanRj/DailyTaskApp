@@ -25,3 +25,4 @@ Route::post('/saveTask', 'TaskController@store');
 
 Route::get('/markAsCompleted/{id}', 'TaskController@updateTaskAsCompleted');
 Route::get('/markAsNotCompleted/{id}', 'TaskController@updateTaskAsNotCompleted');
+Route::get('/deleteTask/{id}', 'TaskController@deleteTask');
